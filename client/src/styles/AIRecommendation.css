@@ -1,0 +1,128 @@
+.ai-page{
+padding:35px;
+background:#F5FBFF;
+min-height:100vh;
+}
+
+.ai-header{
+text-align:center;
+margin-bottom:40px;
+}
+
+.ai-header h1{
+color:#0B5C8F;
+font-size:40px;
+font-weight:700;
+}
+
+.ai-header p{
+color:#666;
+margin-top:15px;
+font-size:18px;
+}
+
+.recommendation-card{
+max-width:800px;
+margin:auto;
+background:white;
+padding:40px;
+border-radius:25px;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.recommendation-header{
+display:flex;
+align-items:center;
+gap:25px;
+margin-bottom:30px;
+}
+
+.robot-icon{
+width:80px;
+height:80px;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#0B5C8F,#2E8B57);
+color:white;
+font-size:35px;
+}
+
+.ngo-info h1{
+color:#2E8B57;
+font-weight:700;
+}
+
+.rating{
+display:flex;
+align-items:center;
+gap:5px;
+color:#FFD700;
+margin:20px 0;
+}
+
+.rating span{
+margin-left:10px;
+color:#666;
+}
+
+.ngo-info p{
+display:flex;
+align-items:center;
+gap:12px;
+margin:15px 0;
+color:#555;
+}
+
+.info-icon{
+color:#0B5C8F;
+}
+
+.match-box{
+margin:30px 0;
+background:#EAF8FF;
+padding:25px;
+border-radius:18px;
+text-align:center;
+}
+
+.match-box span{
+color:#666;
+}
+
+.match-box h1{
+font-size:60px;
+color:#0B5C8F;
+}
+
+.impact-box{
+display:flex;
+gap:20px;
+padding:25px;
+margin-bottom:30px;
+background:#F5FFF8;
+border-radius:20px;
+}
+
+.impact-box svg{
+font-size:40px;
+color:#2E8B57;
+}
+
+.assign-btn{
+width:100%;
+padding:16px;
+background:linear-gradient(135deg,#2E8B57,#4FC3F7);
+border:none;
+border-radius:40px;
+font-size:18px;
+font-weight:600;
+color:white;
+cursor:pointer;
+transition:.3s;
+}
+
+.assign-btn:hover{
+transform:scale(1.03);
+}
